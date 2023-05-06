@@ -1,0 +1,402 @@
+.aboutme {
+    width: 100%;
+    height: 200vh;
+    z-index: var(--z-index-aboutme);
+    background-color: white;
+    position: absolute;
+    flex: 1;
+    overflow: auto;
+}
+
+.aboutme .icon ul li .bi-gear-fill {
+    font-size: 1.4rem;
+    color: orange;
+    padding: 15px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+
+.content .title-name pre {
+    background-color: orange;
+    margin-top: 50px;
+    color: white;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-right: 5px;
+    border: none;
+}
+
+.content .title-name p {
+    color: gray;
+    margin-top: 50px;
+    transition: all 2s;
+}
+
+
+.container .first-section {
+    gap: 150px;
+}
+
+.container .first-section .first-section-as p {
+    font-size: 1.2rem;
+}
+
+.container .first-section .second-section-as p {
+    font-size: 1.2rem;
+}
+
+.first-section-as .web-infos {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.aboutme .resume .title-name {
+    gap: 10px;
+    display: flex;
+}
+
+.aboutme .param i {
+    background-color: #ccc;
+}
+
+.second-section-as h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: underline orange;
+}
+
+
+.second-section-as p {
+    width: 400px;
+    border: 1px solid gray;
+    padding: 30px;
+    background-color: aliceblue;
+
+}
+
+.second-section-as .image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.second-section-as .image {
+    left: -50px;
+    bottom: 50px;
+    position: relative;
+}
+
+.infos-names pre {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+
+.website .website-icon-left,
+.website .website-icon-right {
+    background-color: #ccc;
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+
+.website i {
+    padding-top: 5px;
+    color: black;
+}
+
+.second-section-as .website {
+    top: -90px;
+    display: flex;
+    left: 100px;
+}
+
+.second-section-as .infos span {
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 50px;
+    width: 18px;
+    height: 18px;
+    color: yellow;
+    position: absolute;
+    left: -60px;
+    top: -10px;
+
+}
+
+.second-section-as .infos button {
+    background-color: #1d1d1d;
+    padding: 15px;
+    border-radius: 50px;
+    width: 18px;
+    height: 18px;
+    color: #1d1d1d;
+    position: absolute;
+    left: -50px;
+    top: -5px;
+}
+
+ .infos .infos-names {
+   padding-left: 40px;
+}
+ .infos .infos-names pre {
+   padding-left: 40px;
+}
+
+.infos .infos-names h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+   padding-left: 30px;
+}
+
+.first-section {
+    gap: 150px;
+}
+
+/***************************** SECOND **********************************/
+
+
+.second-section h4 {
+    text-decoration: underline orange;
+    /*border-bottom: 0.1px solid orange;*/
+    font-weight: bold;
+    font-size: 2rem;
+    width: 140px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.second-section .picture-name img {
+    width: 100px;
+    height: 100px;
+}
+
+.second-section .second-section-1 .picture-name {
+    padding-left: 70px;
+}
+
+.second-section .second-section-1 .picture-name img {
+    padding-top: 10px;
+}
+
+.second-section .second-section-1 .picture-name h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.second-section .second-section-1 .picture-name h5 {
+    font-weight: bold;
+}
+
+.logo h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: underline orange;
+}
+
+.logo .all-logo img {}
+
+.fullemodji i { 
+    font-size: 5rem;
+    color: #1d1d1d;
+}
+
+.emodji .fullemodji {
+    padding-top: 40px;
+    text-align: center;
+    gap: 50px;
+}
+
+.emodji h3 {
+    text-decoration: underline orange;
+}
+
+.fullemodji .emodji1 {
+    background-color: #efefef;
+    padding-top: 100px;
+    width: 400px;
+    height: 500px;
+}
+.fullemodji .emodji {
+    background-color: white;
+    padding-top: 100px;
+    width: 400px;
+    height: 500px;
+}
+
+.fullemodji h2 {
+    justify-content: center;
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.fullemodji h2 {
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+}
+
+.fullemodji .price {
+    font-size: 2rem;
+    color: orange;
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    /*.infos .infos-names,*/
+    .second-section .second-section-as .infos button,
+    .second-section .second-section-as .infos span,
+    .second-section .second-section-as .image img {
+        display: none;
+    }
+
+    /*.fullemodji i{
+        font-size: 4rem;
+        padding-left: 50px;
+    }*/
+}
+
+@media screen and (max-width: 768px) {
+
+    .container-about .first-section,
+    .second-section-1 .section-as {
+        display: block;
+    }
+
+    .container .first-section .first-section-as p {
+        text-align: justify;
+    }
+
+    .second-section-as .image {
+        left: -50px;
+        bottom: 50px;
+        position: relative;
+    }
+
+    .form-row div {
+        font-size: 1.2rem;
+        position: absolute;
+        right: 150px;
+        color: #ccc;
+        padding-top: 10px;
+
+    }
+
+    .second-section-as .infos button,
+    .second-section-as .infos span {
+        display: ;
+
+    }
+
+    
+    .logo .all-logo {
+        display: block;
+
+    }
+
+    .emodji .fullemodji {
+        display: block;
+    }
+
+    .first-section .second-section-as{
+        padding-right: 70px;
+    }
+
+    .second-section-as p {
+        width: 99%;
+    }
+
+    .second-section-as .infos-names h3 {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .second-section-as .infos-names pre {
+        padding-top: 0;
+        font-size: 1rem;
+        font-weight: bol;
+    }
+
+    .second-section-as p {
+        font-size: 1.4rem;
+    }
+
+    .container-about .first-section-as p {
+        font-size: 1.4rem;
+    }
+
+    .second-section-1 .section-as p {
+        font-size: 1.4rem;
+    }
+
+    .content .title-name p {
+        font-size: 1.2rem;
+    }
+
+    .content .title-name pre {
+        padding: 20px;
+    }
+
+    .aboutme .icon ul li .bi-gear-fill {
+        top: 150px;
+    }
+
+    .fullemodji {
+        padding-left: 30px;
+        gap: 10px;
+    }
+    .fullemodji .emodji {
+      margin-bottom: 50px;
+      padding-left: 20;
+    }
+     .fullemodji .emodji1 {
+        margin-bottom: 50px;
+    }
+   
+.logo .all-logo img {
+    width: 80%;
+    height: 95%;
+    margin-bottom: 50px;
+}
+
+}
+
+@media screen and (max-width: 1200px) {
+    .container .first-section {
+        gap: 100px;
+    }
+
+    .website {
+        top: -90px;
+        left: 160px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {}
+
+@media screen and (max-width: 427px) {
+    .container .second-section-as .infos-names {
+        top: 0;
+        padding-left: 0;
+    }
+
+    .container .website {
+        top: 0;
+        left: 160px;
+    }
+}

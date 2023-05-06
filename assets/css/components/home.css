@@ -1,0 +1,126 @@
+.home {
+    width: 100%;
+    height: 200vh;
+    z-index: var(--z-index-home);
+    /*background-color: white;*/
+    color: white;
+    position: relative;
+    flex: 1;
+    overflow: auto;
+    margin-top: 200px;
+}
+
+.home .title-nav h2 {
+    font-size: 4rem;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.home .title-nav p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.home .infos-home {
+    font-weight: bold;
+}
+.fullnames-us-item .active {
+    background-color: aliceblue;
+}
+.infos-home .old {
+    text-decoration: underline orange;
+}
+
+.infos-home .ad {
+    text-decoration: underline orange
+}
+
+.infos-home .phone {
+    text-decoration: underline orange;
+}
+
+.infos-home .mail {
+    text-decoration: underline orange;
+
+}
+
+.infos-home .free {
+    text-decoration: underline orange;
+
+}
+
+@media screen and (max-width: 1280px) {
+    /* .home {
+         padding-left: 320px;
+     }*/
+ }
+ 
+ @media screen and (max-width: 1200px) {
+     .home {
+        /* padding-left: 270px;
+     }
+ 
+ }
+ 
+ @media screen and (max-width: 992px) {
+    /* .home {
+         padding-left: 150px;
+     }*/
+ 
+ 
+ }
+ 
+ @media screen and (max-width: 820px) {
+     /*.home {
+         height: 100vh;
+         padding-left: 100px;
+     }*/
+ 
+     .home .infos-home {
+         font-size: 1.2rem;
+     }
+ 
+ }
+ 
+ @media screen and (max-width: 768px) {
+ 
+     .infos-home {
+         /*padding-left: 50px;*/
+     }
+ 
+    /* .home {
+         text-align: auto;
+         position: relative;
+         padding-left: 200px;
+     }*/
+ }
+ 
+ @media screen and (max-width: 574px) {
+    /* .home {
+         padding-left: 150px;
+     }*/  
+ }
+ 
+ @media screen and (max-width: 500px) {
+ 
+     /*.home {
+         padding-left: 100px;
+     }*/
+     
+ }
+ 
+ @media screen and (max-width: 430px) {
+       .home {
+         top: 0;
+         left: 0%;
+        /* margin-bottom: 50px;
+         padding-left: 70px;*/
+ 
+     }
+ 
+    
+ }
+ 
+ @media screen and (max-width: 360px) {
+
+ }

@@ -1,0 +1,747 @@
+.Portfolio {
+    width: 100%;
+    height: 100%;
+    z-index: var(--z-index-portfolio);
+    background-color: white;
+    position: absolute;
+    flex: 1;
+    padding-left: 70px;
+    overflow: auto;
+}
+
+.Portfolio .title-name {
+    margin-left: -70px
+}
+
+.Portfolio .icon ul li .bi-gear-fill {
+    font-size: 1.4rem;
+    color: orange;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-right: none;
+    position: absolute;
+    top: 100px;
+    right: 0;
+
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.Portfolio .title-name {
+    gap: 20px;
+    display: flex;
+}
+
+.Portfolio .title-name p {
+    padding-top: 15px;
+}
+
+.Portfolio .title-langage h2 {
+    width: 60px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.container .fullimages .first-section-picture .picture1 img {
+    border-bottom: 10px solid white;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.container .fullimages .first-section-picture .picture2 img {
+    border-bottom: 10px solid white;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.container .fullimages .first-section-picture .picture3 img {
+    border-bottom: 10px solid white;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.container .fullimages .first-section-picture .picture4 img {
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.container .fullimages .second-section-picture .picture1 img {
+    border-bottom: 10px solid white;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.container .fullimages .second-section-picture .picture2 img {
+    border-bottom: 10px solid white;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.container .fullimages .second-section-picture .picture3 img {
+    border-bottom: 10px solid white;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.container .fullimages .second-section-picture .picture4 img {
+    border-bottom: 10px solid white;
+    padding: 50px;
+    width: 400px;
+    height: 410px;
+}
+
+.container .fullimages .thirt-section-picture .picture1 img {
+    border-bottom: 10px solid white;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.container .fullimages .thirt-section-picture .picture2 img {
+    border-bottom: 10px solid white;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.container .fullimages .thirt-section-picture .picture3 img {
+    border-bottom: 10px solid white;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.container .fullimages .first-section-picture img {
+    padding: 50px;
+}
+
+.container .fullimages .first-section-picture .picture1 {
+    background-color: #3b9b7b;
+}
+
+.container .fullimages .first-section-picture .picture2 {
+    background-color: #6b5b2b;
+}
+
+.container .fullimages .first-section-picture .picture3 {
+    background-color: #ddd;
+}
+
+
+.container .fullimages .first-section-picture .picture4 {
+    background-color: rosybrown;
+}
+
+
+.container .fullimages .second-section-picture .picture1 {
+    background-color: tan;
+}
+
+.container .fullimages .second-section-picture .picture2 {
+    background-color: royalblue;
+}
+
+.container .fullimages .second-section-picture .picture3 {
+    background-color: burlywood;
+}
+
+.container .fullimages .second-section-picture .picture4 {
+    background-color: tomato;
+}
+
+.container .fullimages .thirt-section-picture .picture1 {
+    background-color: royalblue;
+}
+
+.container .fullimages .thirt-section-picture .picture2 {
+    background-color: #1f1F;
+}
+
+.container .fullimages .thirt-section-picture .picture3 {
+    background-color: goldenrod;
+}
+
+.container .fullimages .first-section-picture .picture10 {
+    background-color: #1b5b2b;
+}
+
+/********************************* MADIA **************************************/
+
+@media screen and (max-width: 1280px) {
+    .container .fullimages .first-section-picture .picture1 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .first-section-picture .picture2 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .first-section-picture .picture3 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .first-section-picture .picture4 img {
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .second-section-picture .picture1 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .second-section-picture .picture2 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .second-section-picture .picture3 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .second-section-picture .picture4 img {
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture1 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture2 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture3 img {
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages {
+        gap: 10px;
+    }
+
+    .container {
+        margin-right: px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .container .fullimages .first-section-picture .picture1 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .first-section-picture .picture2 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .first-section-picture .picture3 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .first-section-picture .picture4 img {
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .second-section-picture .picture1 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .second-section-picture .picture2 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .second-section-picture .picture3 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .second-section-picture .picture4 img {
+        padding: 50px;
+        width: 200px;
+        height: 220px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture1 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture2 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture3 img {
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container .fullimages .first-section-picture .picture1 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .first-section-picture .picture2 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .first-section-picture .picture3 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .first-section-picture .picture4 img {
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .second-section-picture .picture1 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .second-section-picture .picture2 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .second-section-picture .picture3 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .second-section-picture .picture4 img {
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+        border: none;
+    }
+
+    .container .fullimages .thirt-section-picture .picture1 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture2 img {
+        border-bottom: 10px solid white;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture3 img {
+        padding: 50px;
+        width: 150px;
+        height: 140px;
+        border: none;
+    }
+
+    .container .fullimages {
+        gap: 10px;
+    }
+
+    .container {
+        margin-left: -45px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .container {
+        margin-left: -15px;
+    }
+}
+@media screen and (max-width: 812px) {
+    .container {
+        margin-left: -90px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container .fullimages {
+        display: block;
+    }
+
+    .container .fullimages .first-section-picture img {
+        font-size: 0.5rem;
+    }
+
+    .container .fullimages .second-section-picture img,
+    .container .fullimages .first-section-picture img,
+    .container .fullimages .thirt-section-picture img {
+        font-size: 0.9rem;
+    }
+
+    .container .fullimages .first-section-picture .picture1 img {
+        border-bottom: 10px solid white;
+        width: 700px;
+        height: 500px;
+    }
+
+    .container .fullimages .first-section-picture .picture2 img {
+        border-bottom: 10px solid white;
+        width: 700px;
+        height: 500px;
+
+    }
+
+    .container .fullimages .first-section-picture .picture3 img {
+        border-bottom: 10px solid white;
+        width: 700px;
+        height: 500px;
+    }
+
+    .container .fullimages .first-section-picture .picture4 img {
+        border-bottom: 10px solid white;
+        width: 700px;
+        height: 500px;
+    }
+
+    .container .fullimages .second-section-picture .picture1 img {
+        border-bottom: 10px solid white;
+        width: 700px;
+        height: 500px;
+    }
+
+    .container .fullimages .second-section-picture .picture2 img {
+        border-bottom: 10px solid white;
+        width: 700px;
+        height: 500px;
+    }
+
+    .container .fullimages .second-section-picture .picture3 img {
+        border-bottom: 10px solid white;
+        width: 700px;
+        height: 500px;
+    }
+
+    .container .fullimages .second-section-picture .picture4 img {
+        border-bottom: 10px solid white;
+        width: 700px;
+        height: 500px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture1 img {
+        border-bottom: 10px solid white;
+        width: 700px;
+        height: 500px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture2 img {
+        border-bottom: 10px solid white;
+        width: 700px;
+        height: 500px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture3 img {
+        border-bottom: 10px solid white;
+        width: 700px;
+        height: 500px;
+    }
+
+    .container .fullimages {
+        text-align: center;
+
+    }
+
+    .container {
+        margin-left: -35px;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .container .fullimages .first-section-picture .picture1 img {
+        border: none;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .first-section-picture .picture2 img {
+        border: none;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .first-section-picture .picture3 img {
+        border: none;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .first-section-picture .picture4 img {
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+        border: none;
+    }
+
+    .container .fullimages .second-section-picture .picture1 img {
+        border: none;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .second-section-picture .picture2 img {
+        border: none;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .second-section-picture .picture3 img {
+        border: none;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .second-section-picture .picture4 img {
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+        border: none;
+    }
+
+    .container .fullimages .thirt-section-picture .picture1 img {
+        border: none;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture2 img {
+        border: none;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture3 img {
+        padding: 50px;
+        width: 200px;
+        height: 190px;
+        border: none;
+    }
+
+    .container {
+        margin-left: -35px;
+    }
+
+    .Portfolio .title-langage {
+        padding-right: 100px;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .container .fullimages .first-section-picture .picture1 img {
+        border: none;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .first-section-picture .picture2 img {
+        border: none;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .first-section-picture .picture3 img {
+        border: none;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .first-section-picture .picture4 img {
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+        border: none;
+    }
+
+    .container .fullimages .second-section-picture .picture1 img {
+        border: none;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .second-section-picture .picture2 img {
+        border: none;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .second-section-picture .picture3 img {
+        border: none;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .second-section-picture .picture4 img {
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+        border: none;
+    }
+
+    .container .fullimages .thirt-section-picture .picture1 img {
+        border: none;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture2 img {
+        border: none;
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .fullimages .thirt-section-picture .picture3 img {
+        padding: 50px;
+        width: 150px;
+        height: 140px;
+        border: none;
+    }
+
+    .container {
+        margin-left: -35px;
+    }
+
+    .Portfolio .title-langage {
+        padding-right: 70px;
+        padding-top: 50px;
+    }
+    .Portfolio .title-name pre {
+       font-size: 1.2rem;
+       padding-top: 10px;
+    }
+    .Portfolio .title-name p {
+       font-size: 1rem;
+       padding-bottom: 10px;
+    }
+    .Portfolio .icon ul li .bi-gear-fill {
+        font-size: 1.4rem;
+        color: orange;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-right: none;
+        position: absolute;
+        top: 100px;
+        right: 0;
+    
+    }
+
+    .Portfolio .title-langage h2 {
+        width: 60px;
+        height: 40px;
+        background-color: orange;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 574px) {}
+
+@media screen and (max-width: 427px) {
+    .container {
+        margin-left: 35px;
+    }
+}
