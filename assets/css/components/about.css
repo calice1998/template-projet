@@ -40,11 +40,11 @@
     gap: 150px;
 }
 
-.container .first-section .first-section-as p {
+.first-section .first-section-as p {
     font-size: 1.2rem;
 }
 
-.container .first-section .second-section-as p {
+.first-section .second-section-as p {
     font-size: 1.2rem;
 }
 
@@ -75,6 +75,10 @@
     padding: 30px;
     background-color: aliceblue;
 
+}
+.second-section .second-section-1 {
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
 .second-section-as .image img {
@@ -140,17 +144,18 @@
     top: -5px;
 }
 
- .infos .infos-names {
-   padding-left: 40px;
+.infos .infos-names {
+    padding-left: 40px;
 }
- .infos .infos-names pre {
-   padding-left: 40px;
+
+.infos .infos-names pre {
+    padding-left: 40px;
 }
 
 .infos .infos-names h3 {
     font-size: 1.2rem;
     font-weight: bold;
-   padding-left: 30px;
+    padding-left: 30px;
 }
 
 .first-section {
@@ -203,7 +208,7 @@
 
 .logo .all-logo img {}
 
-.fullemodji i { 
+.fullemodji i {
     font-size: 5rem;
     color: #1d1d1d;
 }
@@ -224,6 +229,7 @@
     width: 400px;
     height: 500px;
 }
+
 .fullemodji .emodji {
     background-color: white;
     padding-top: 100px;
@@ -298,7 +304,7 @@
 
     }
 
-    
+
     .logo .all-logo {
         display: block;
 
@@ -308,7 +314,7 @@
         display: block;
     }
 
-    .first-section .second-section-as{
+    .first-section .second-section-as {
         padding-right: 70px;
     }
 
@@ -355,19 +361,21 @@
         padding-left: 30px;
         gap: 10px;
     }
+
     .fullemodji .emodji {
-      margin-bottom: 50px;
-      padding-left: 20;
+        margin-bottom: 50px;
+        padding-left: 20;
     }
-     .fullemodji .emodji1 {
+
+    .fullemodji .emodji1 {
         margin-bottom: 50px;
     }
-   
-.logo .all-logo img {
-    width: 80%;
-    height: 95%;
-    margin-bottom: 50px;
-}
+
+    .logo .all-logo img {
+        width: 80%;
+        height: 95%;
+        margin-bottom: 50px;
+    }
 
 }
 
